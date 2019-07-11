@@ -6,12 +6,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import com.qq.tars.spring.annotation.TarsServant;
 
 /**
  * @Auther: yaya
  * @Date: 2019/7/8 17:30
  * @Description:
  */
+@TarsServant("HelloObj")
 public class HelloServantImpl implements HelloServant {
     private static final Logger log = LoggerFactory.getLogger(HelloServantImpl.class);
 

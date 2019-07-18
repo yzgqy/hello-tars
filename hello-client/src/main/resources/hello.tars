@@ -1,7 +1,8 @@
 module Hello
 {
+
 	interface Hello
 	{
-	    string hello();
+	    int hello(out string hello);
 	};
 };

@@ -92,7 +92,7 @@
                         <!-- 生成的源代码目录 -->
                         <srcPath>${basedir}/src/main/java</srcPath>
                         <!-- 生成源代码包前缀 -->
-                        <packagePrefixName>com.demo.helloserver.tars.</packagePrefixName>
+                        <packagePrefixName>com.demo.helloserver.tars2.</packagePrefixName>
                     </tars2JavaConfig>
                 </configuration>
             </plugin>

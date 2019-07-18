@@ -67,7 +67,7 @@
                         <!-- 生成的源代码目录 -->
                         <srcPath>${basedir}/src/main/java</srcPath>
                         <!-- 生成源代码包前缀 -->
-                        <packagePrefixName>com.demo.helloclient.tars.</packagePrefixName>
+                        <packagePrefixName>com.demo.helloclient.tars2.</packagePrefixName>
                     </tars2JavaConfig>
                 </configuration>
             </plugin>
